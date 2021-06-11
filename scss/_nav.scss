@@ -1,0 +1,170 @@
+.eduapp {
+    font-weight: bolder;
+}
+
+.login {
+    color: #0b327f !important;
+    font-weight: bolder;
+}
+
+.get-started{
+    background-color: #0b327f;
+    border-radius: 12px;
+    margin: 12px;
+    
+    a {
+        color: white;
+        font-weight:bolder;
+    }
+}
+
+.nav-2 {
+    margin-left: none;
+}
+
+.eduapp {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:not(.get-started) {
+    color: black;
+}
+
+.hamburger {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: #0b327f;
+}
+
+@media (max-width: 767px) {
+    #nav {
+        display: none;
+    }
+
+    .get-started {
+        width: 50%;
+        margin: 0 auto;
+        padding: 12px;
+    }
+  
+    nav {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav-bar {
+        margin: 0 auto;
+    }
+    .button-text {
+        margin-left: 24px;
+    }
+
+    .hamburger-menu.mobile-menu {
+        margin-top: 12px;
+    }
+
+    .hamburger-menu.tablet-menu {
+        margin-top: 12px;
+    }
+
+    .get-started {
+        width: 40% !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .hamburger-menu.mobile-menu {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .eduapp {
+        padding: 0;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .hamburger-menu.mobile-menu {
+        margin-top: 12px;
+    }
+
+    .nav-1 {
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+        padding: 0;
+    }
+
+    .nav-2 {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    li#nav\ nav-2-mobile {
+        width: revert;
+    }
+
+    .get-started {
+        width: 12%;
+        a {
+            padding: 0;
+        }
+    }
+
+    .get-started {
+        width: 30% !important;
+        margin: 0 auto;
+        padding: 12px;
+    }
+
+    .nav-2-desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    li#nav\ nav-2-mobile {
+        display: none;
+    }
+
+    .hamburger-menu.mobile-menu {
+        display: none;
+    }
+    #nav {
+        display: flex;
+    }
+    nav {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    .nav-1 {
+        margin-right: auto;
+    }
+    
+    .nav-2 {
+        display: flex;
+        margin-left: auto;
+    }
+
+}
